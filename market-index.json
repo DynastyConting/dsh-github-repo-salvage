@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DynastyConting DSH plugins",
+    "zh": "DynastyConting 的 DSH 插件"
+  },
+  "description": {
+    "en": "Plugins for DeepSeek Harness.",
+    "zh": "DeepSeek Harness 插件。"
+  },
+  "metadata": {
+    "categories": {
+      "tools": {
+        "title": { "en": "Tools", "zh": "工具" }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@dynastyconting/dsh-github-repo-salvage",
+      "title": {
+        "en": "GitHub Repo Salvage",
+        "zh": "GitHub 仓库打捞"
+      },
+      "description": {
+        "en": "Finds the forks that still hold a repository's original commits after a force-push erased them, and verifies the head against a known SHA.",
+        "zh": "仓库被 force-push 抹掉后，找出仍保留原始提交的 fork，并用已知 SHA 校验取回的是不是原版。"
+      },
+      "icon": "icon.svg",
+      "author": "DynastyConting",
+      "homepage": "https://github.com/DynastyConting/dsh-github-repo-salvage",
+      "repository": {
+        "url": "https://github.com/DynastyConting/dsh-github-repo-salvage"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": ["github", "git", "recovery", "fork", "force-push"]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793888400,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/DynastyConting/dsh-github-repo-salvage",
+            "commit": "9f137ace0da280fa2bb3f55c1b5ef7c5b5a47074"
+          }
+        }
+      ]
+    }
+  ]
+}
