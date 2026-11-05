@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub 仓库打捞",
+    "description": "仓库被 force-push 抹掉后，找出仍保留原始提交的 fork，并用已知 SHA 校验取回的是不是原版。"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@dynastyconting/dsh-github-repo-salvage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only recovery of a GitHub repository whose code was erased or whose history was force-pushed away, using the fork network and the activity log.",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

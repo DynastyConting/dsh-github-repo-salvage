@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub Repo Salvage",
+    "description": "Finds the forks that still hold a repository's original commits after a force-push erased them, and verifies the head against a known SHA."
+  }
+}
